@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { ProductService, Producto } from '../../services/product';
-import { CategoriaService, Categoria } from '../../services/categoria';
+import { ProductService, Producto } from '../../services/product.service';
+import { CategoriaService, Categoria } from '../../services/categoria.service';
 
 @Component({
   selector: 'app-producto',

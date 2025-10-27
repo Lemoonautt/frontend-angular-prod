@@ -1,4 +1,4 @@
-import { CategoriaService } from './categoria';
+import { CategoriaService } from './categoria.service';
 import { TestBed } from '@angular/core/testing';
 
 describe('CategoriaService', () => {
