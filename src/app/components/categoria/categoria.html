@@ -2,11 +2,12 @@
   <h2>Lista de Categorías</h2>
 
   <div *ngIf="loading" class="loading">
-    <p>Cargando categorías...</p>
+    <p>⏳ Cargando categorías...</p>
   </div>
 
   <div *ngIf="!loading && categorias.length === 0" class="no-data">
     <p>No hay categorías registradas.</p>
+    <p class="hint">💡 Las categorías se mostrarán aquí una vez creadas</p>
   </div>
 
   <div *ngIf="!loading && categorias.length > 0" class="categorias-list">
@@ -32,3 +33,4 @@
     <a routerLink="/producto" class="btn btn-primary">Ir a Productos</a>
   </div>
 </div>
+
